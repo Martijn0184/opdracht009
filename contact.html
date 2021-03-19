@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Martijn's Winc website</title>
+</head>
+
+<body>
+    <header class="box-model-properties">
+        <h1 class="center-title">Een Winc website van Martijn den Breejen</h1>
+
+    </header>
+    <nav class="box-model-properties">
+        <ul class="nav-links">
+            <li><a href="about.html">link naar about</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">link naar about</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="naam" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Bericht: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Verzenden</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        &copy;Martijn den Breejen
+    </footer>
+</body>
+
+</html>
